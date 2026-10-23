@@ -56,6 +56,6 @@ The Random Forest classifier achieved a **77.53% baseline accuracy** on realisti
 
 **⚠️ Important Note on Dataset Sizing:**
 Due to high-frequency sampling (1033 Hz), the full simulated dataset (`motor_accel_dataset_5000.mat`) exceeds 297 MB and cannot be hosted directly on GitHub. 
-*   **Dataset Download:** [Insert Your Google Drive/Kaggle Link Here]
+*   **Dataset Download:** https://drive.google.com/drive/folders/187bKbB1eL4GA-UlBrSSLYBS5JofA6lbS?usp=sharing
 *   **Deployment Package:** The `edge_deployment_package.mat` contains the trained Random Forest model and normalized DSP parameters.
 *   **Edge Script:** Run `raspi_motor_monitor.py` on the Raspberry Pi 4 to initiate real-time I2C polling and edge classification.
